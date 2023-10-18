@@ -5,7 +5,7 @@ a report that displays the sites that are richest in amphibians. */
 
 /* Q1. I am importing the excel file 'amphibians.xlsx' into sas and identify what type of database this file is using the 'dbms'command,
 as it is an XLSX file using the PROC step */
-proc import datafile='C:\Users\hashe\OneDrive\Documents\Southampton Uni\Semester 2\MANG1041 - Analytics Programming 1\Coursework - 80%\amphibians.xlsx'
+proc import datafile='ENTER PATH HERE'
 	out=amphibians
 	dbms=xlsx;
 run;
